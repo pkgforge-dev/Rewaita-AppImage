@@ -9,6 +9,8 @@
 
 * [Latest Stable Release](https://github.com/pkgforge-dev/Rewaita-AppImage/releases/latest)
 
+Application for GNOME, **it only works if you have GNOME and `xdg-desktop-portal-gnome` installed** (the flatpak has the same requirements)
+
 ---
 
 AppImage made using [sharun](https://github.com/VHSgunzo/sharun), which makes it extremely easy to turn any binary into a portable package without using containers or similar tricks. 
