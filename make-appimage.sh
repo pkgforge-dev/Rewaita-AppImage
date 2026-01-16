@@ -20,8 +20,11 @@ export GTK_CLASS_FIX=1
 
 # Deploy dependencies
 quick-sharun /usr/bin/rewaita \
-             /usr/share/rewaita \
              /usr/lib/libgirepository*
+
+# Patch Rewaita to use AppImage's directory
+sed -i '/^pkgdatadir/c\pkgdatadir = os.getenv("SHARUN_DIR", "/usr") + "/share/rewaita"' ./AppDir/bin/rewaita
+sed -i '/^localedir/c\localedir = os.getenv("SHARUN_DIR", "/usr") + "/share/locale"' ./AppDir/bin/rewaita
 
 # Turn AppDir into AppImage
 quick-sharun --make-appimage
