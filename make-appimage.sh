@@ -20,6 +20,7 @@ export GTK_CLASS_FIX=1
 
 # Deploy dependencies
 quick-sharun /usr/bin/rewaita \
+             /usr/share/rewaita \
              /usr/lib/libgirepository*
 
 # Turn AppDir into AppImage
