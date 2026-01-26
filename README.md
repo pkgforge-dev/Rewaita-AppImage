@@ -1,3 +1,5 @@
+<div align="center">
+
 # Rewaita AppImage 🐧
 
 [![GitHub Downloads](https://img.shields.io/github/downloads/pkgforge-dev/Rewaita-AppImage/total?logo=github&label=GitHub%20Downloads)](https://github.com/pkgforge-dev/Rewaita-AppImage/releases/latest)
@@ -8,12 +10,16 @@
   <img src="https://raw.githubusercontent.com/SwordPuffin/Rewaita/refs/heads/main/data/icons/hicolor/scalable/apps/io.github.swordpuffin.rewaita.svg" width="128" />
 </p>
 
-* [Upstream URL](https://github.com/SwordPuffin/Rewaita)
+| Latest Stable Release | Upstream URL |
+| :---: | :---: |
+| [Click here](https://github.com/pkgforge-dev/Rewaita-AppImage/releases/latest) | [Click here](https://github.com/SwordPuffin/Rewaita) |
+
+</div>
+
+---
 
 > [!WARNING]
 > Application is GNOME-only, it only works if you have GNOME and `xdg-desktop-portal-gnome` installed (the flatpak has the same requirements)
-
----
 
 AppImage made using [sharun](https://github.com/VHSgunzo/sharun) and its wrapper [quick-sharun](https://github.com/pkgforge-dev/Anylinux-AppImages/blob/main/useful-tools/quick-sharun.sh), which makes it easy and reliable to turn any binary into a portable package without using containers or similar tricks. 
 
